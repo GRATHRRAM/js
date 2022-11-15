@@ -1,0 +1,29 @@
+#czas
+{
+    position: absolute;
+    top: 5%;
+    left: 27%;
+    transform: translate(-5%,-27%);
+    font-size: x-large;
+}
+#pole
+{
+    position: absolute;
+    top: 15%;
+    left: 44%;
+    transform: translate(-15%,-44%);
+    font-size: large;
+    background-color: #d3d3d3;
+}
+.miasta
+{
+    position: relative;
+    top: 200px;
+    left: 617px;
+    font-size: x-large;
+    color: dimgray;
+}
+body
+{
+    background-color: #d3d3d3;
+}
