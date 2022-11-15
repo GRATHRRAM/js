@@ -51,6 +51,30 @@ function showtime()
 		var nd = new Date(utc+(3600000*offset));
         document.getElementById("czas").innerHTML = nd;
     }
+    else if(timename == "tokio")
+    {
+        var offset = 9;
+        var b = new Date()
+		var utc = b.getTime()+(b.getTimezoneOffset()*60000);
+		var nd = new Date(utc+(3600000*offset));
+        document.getElementById("czas").innerHTML = nd;
+    }
+    else if(timename == "sidney")
+    {
+        var offset = 10;
+        var b = new Date()
+		var utc = b.getTime()+(b.getTimezoneOffset()*60000);
+		var nd = new Date(utc+(3600000*offset));
+        document.getElementById("czas").innerHTML = nd;
+    }
+    else if(timename == "oregon")
+    {
+        var offset = -8;
+        var b = new Date()
+		var utc = b.getTime()+(b.getTimezoneOffset()*60000);
+		var nd = new Date(utc+(3600000*offset));
+        document.getElementById("czas").innerHTML = nd;
+    }
     else
     {
         document.getElementById("czas").innerHTML = "czas sie pojawi jak wpiszesz nazwe miasta!";
